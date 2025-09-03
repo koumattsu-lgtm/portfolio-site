@@ -1,0 +1,83 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ヘッダー */
+header {
+  background: linear-gradient(135deg, #6a5acd, #48c6ef);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+/* セクション共通 */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #6a5acd;
+  border-bottom: 2px solid #6a5acd;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* スキルリスト */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #eee;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#skills li:hover {
+  background: #dcd6f7;
+}
+
+/* 制作物 */
+#works ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+/* お問い合わせ */
+#contact a {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin-top: 40px;
+}
